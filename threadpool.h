@@ -5,7 +5,7 @@
 #include <cstdio>
 #include <exception>
 #include <pthread.h>
-/*应用第14张介绍的线程同步机制的包装类*/
+/*线程同步机制的包装类*/
 #include "locker.h"
 
 /*线程池类，将它定位为模板是为了代码复用。模板参数T是任务类*/
